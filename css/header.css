@@ -1,0 +1,97 @@
+header {
+    justify-content: space-between;
+    padding: 30px 0;
+    background: var(--secondary);
+}
+header .logo .img{
+    width: 264px;
+    height: 80px;
+}
+header .header-middle .logo {
+    text-align: center;
+}
+header .header-right {
+    margin-top: 0px;
+    justify-content: end;
+}
+header .header-right .registration{
+    margin-top: 0px;
+}
+header .header-right .registration i {
+    color: var(--white);
+    margin-top: 3px;
+    margin-right: 5px;
+}
+header .header-right .registration a{
+    color: var(--white);
+}
+header .header-right .logout {
+    margin: 6px 20px;
+}
+header .header-right .logout i {
+    color: var(--white);
+    margin-top: 3px;
+    margin-right: 5px;
+}
+header .header-right .logout a{
+    color: var(--white);
+}
+header .header-right .your-page{
+    margin-top: 0px;
+    margin-right: 20px;
+}
+header .header-right .your-page i {
+    color: var(--white);
+    margin-right: 5px;
+    margin-top: 3px;
+}
+header .header-right .your-page a{
+    color: var(--white);
+}
+header .header-right a:hover{
+    color: var(--white) !important;
+}
+header .header-right .login i{
+    color: var(--white);
+    font-size: 16px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+header .header-right .login {
+    margin: 0 30px 0 20px;
+    margin-top: 0px;
+}
+header .header-right .login a{
+    color: var(--white);
+}
+header .header-right .login a{
+    color: var(--white);
+}
+header .header-left .social-icon i {
+    color: var(--text);
+    font-size: 17px;
+    /* margin-left: 10px; */
+    height: 26px;
+    width: 27px;
+    line-height: 26px;
+    background-color: var(--white);
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+header .header-left .social-icon i:hover{
+    color: var(--white);
+    border-color: transparent;
+    background-color: var(--black);
+}
+/* header .header-left .social-icon .fa-facebook-f{
+    color: var(--facebook);
+}
+header .header-left .social-icon .fa-twitter{
+    color: var(--twitter);
+}
+header .header-left .social-icon .fa-youtube{
+    color: var(--google);
+} */
+

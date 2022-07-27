@@ -1,0 +1,272 @@
+* { margin: 0px; padding: 0px; outline: 0px; }
+html,body { scroll-behavior: smooth; }
+body{   color: var(--text);
+        background: var(--body);
+        font-size: var(--bodysize);
+        word-wrap: break-word;
+        font-family: var(--pfamily);
+        font-weight: 400;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        /* line-height: var(--bodyheight); */
+        padding: 0;
+        vertical-align: baseline;
+        overflow-x: hidden; 
+        /* background: #eee url(../images/bp.gif) no-repeat center top; */
+        background: var(--white);
+    }
+
+img { vertical-align: middle; width: 100%; height: 100%; }
+
+a { text-decoration: none; color: var(--black); display: inline-block; }
+
+a:hover { text-decoration: none; color: var(--secondary) !important;}
+
+ul,ol { padding: 0px; list-style: none; }
+h1,h2,h3,h4,h5,h6,p,ol,ul,li,span,label { margin-bottom: 0px; }
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: var(--secondary);
+}
+h2 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--secondary);
+}
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { font-size: 14px; color: var(--gray); }
+input:-ms-input-placeholder,textarea:-ms-input-placeholder { font-size: 14px; color: var(--gray); }
+input::-ms-input-placeholder,textarea::-ms-input-placeholder { font-size: 14px; color: var(--gray); }
+input::placeholder,textarea::placeholder { font-size: 14px; color: var(--gray); }
+input,button {outline: none; }
+input:focus,button:focus {outline: none; box-shadow: none;}
+.form-check-input:focus { box-shadow: none; }
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: var(--primary-bshadow);
+}
+.main-content .todays-date {
+    margin-right: 0;
+    text-align: right;
+}
+.main-content .todays-date p{
+    color: var(--text);
+}
+.main-content .select{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+.pl-0{ padding-left: 0; }
+.pr-0{ padding-right: 0; }
+.ml-0{ margin-left: 0; }
+.mr-0{ margin-right: 0; }
+
+.container{ max-width: 1170px; margin: 0 auto; padding: 0; }
+
+.border-radius-50{ border-radius: 50%; }
+
+.text-justify{ text-align: justify; }
+.text-primary-color{
+    color: var(--primary);
+}
+.bg-primary-color{
+    background-color: var(--primary);
+}
+.text-secondary-color{
+    color: var(--secondary);
+}
+.bg-secondary-color{
+    background-color: var(--secondary);
+}
+.main-content{
+    background-color: var(--white);
+    /* padding: 5px 15px 0 15px; */
+    /* border: 1px solid var(--primary); */
+}
+.main-content>.row{
+    padding: 5px 15px 0 15px;
+}
+.main-content .content-left {
+    padding: 15px 0 0 10px;
+}
+.main-content h2{
+    margin-top: 60px;
+}
+.main-content .content-left h2{
+    margin-top: 10px;
+}
+.index-content .content-left h2{
+    margin-top: 40px !important;
+}
+.kobitar-asor-content .content-left .new-poem h2{
+    margin-top: 30px;
+}
+.main-content .achievement h2 {
+    margin-top: 10px;
+}
+.main-content .content-right h2{
+    margin-top: 20px;
+}
+.main-content .content-right {
+    margin-left: 10px;
+}
+.main-content .search-by-date {
+    padding: 10px;
+}
+.text-gray{
+    color: #ccc;
+}
+
+/*---------------------------------
+         SCROLLBAR CSS
+---------------------------------*/
+/* .scroll::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	background-color: #ffffff;
+}
+.scroll::-webkit-scrollbar{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+.scroll::-webkit-scrollbar-thumb{
+	background-color: var(--primary);
+} */
+
+
+
+/*---------------------------------
+         TABLE CSS
+---------------------------------*/
+.main-content .table > tbody > tr:nth-child(odd) > td, .table > tbody > tr:nth-child(odd) > th {
+    background-color: #ffffff !important;
+    padding: 4px;
+}
+.main-content .table > tbody > tr:nth-child(even) > td, .table > tbody > tr:nth-child(even) > th {
+    background-color: #f9f9f9 !important;
+    padding: 4px;
+}
+.main-content thead tr{
+    background-color: #f9f9f9;
+}
+.main-content .nav-tabs .nav-link{
+    color: var(--primary);
+    background-color: #f9f9f9;
+    margin-right: 2px;
+    margin-bottom: 0px;
+}
+.main-content .nav-tabs .nav-item.show .nav-link, .main-content .nav-tabs .nav-link.active {
+    color: var(--secondary);
+    margin-bottom: -1px;
+    border-color: #dee2e6 #dee2e6 #f9f9f9;
+    font-weight: 600;
+}
+.main-content table .subject a{
+    color: var(--secondary);
+}
+.main-content table .subject a:hover{
+    color: var(--primary) !important;
+}
+.main-content table .writer a{
+    color: var(--primary);
+}
+.main-content table tbody .subject .stars p{
+    margin-top: -4px;
+}
+.main-content .new-poem{
+    position: relative;
+}
+.main-content .add-new-poem-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--secondary);
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.main-content .add-new-poem-btn:hover{
+    color: var(--white) !important;
+}
+
+
+/*---------------------------------
+           FAMOUS WRITER CSS
+---------------------------------*/
+.main-content .famous-writer {
+    padding: 10px;
+    background-color: #e8e8e8;
+}
+.main-content .famous-writer .after {
+    margin: -6px auto 6px auto;
+    height: 0;
+    border-top: 1px solid rgb(204, 204, 204,0.7);
+    border-bottom: 1px solid #ffffff;
+}
+.main-content .famous-writer ul {
+    margin: 15px 0;
+    background-color: #efefef;
+}
+.main-content .famous-writer ul li {
+    margin: -2px 0 8px 0;
+    padding-left: 5px;
+    font-size: 14px;
+}
+.main-content .famous-writer ul li a {
+    font-size: 14px;
+    color: var(--secondary);
+    display: inline;
+}
+.main-content .famous-writer ul li a:hover{
+    color: var(--primary) !important;
+}
+.main-content .famous-writer ul li .text-bold{
+    color: var(--secondary);
+    font-weight: bold;
+}
+.main-content .famous-writer ul li .text-bold:hover{
+    color: var(--primary) !important;
+}
+
+
+/*---------------------------------
+           PAGINATION CSS
+---------------------------------*/
+.bootstrap-pagination{
+    float: right;
+}
+.bootstrap-pagination ul li a{
+    color: var(--primary);
+}
+.bootstrap-pagination ul li.active a{
+    background-color: var(--primary) !important; 
+    border-color: var(--primary) !important; 
+}
+.bootstrap-pagination ul li.active a:hover{
+    color: var(--white) !important;
+}
+
+
+/* ads css */
+.ads-80px{
+    width: 100%;
+    height: 80px;
+}
+.ads-100px{
+    width: 100%;
+    height: 100px;
+}
+.ads-200px{
+    width: 100%;
+    height: 200px;
+}

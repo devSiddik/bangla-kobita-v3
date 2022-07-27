@@ -1,0 +1,22 @@
+
+.khyatiman-kobi-content .new-poem tr .serial{
+    padding-left: 9px !important;
+}
+.khyatiman-kobi-content .khyatiman-kobi-table{
+    padding: 20px 0px;
+}
+.khyatiman-kobi-content .khyatiman-kobi-table .writer-title {
+    font-weight: bold;
+}
+.khyatiman-kobi-content .khyatiman-kobi-table .writer {
+    display: flex;
+    align-items: center;
+    margin: 5px 0 0 0;
+}
+.khyatiman-kobi-content .khyatiman-kobi-table .writer i {
+    font-size: 5px;
+    margin-right: 5px;
+}
+.khyatiman-kobi-content .khyatiman-kobi-table .writer a{
+    color: var(--primary);
+}

@@ -1,0 +1,107 @@
+.alochona-content .social-share{
+    text-align: right;
+}
+.alochona-content .social-share a i {
+    font-size: 20px;
+    color: var(--primary);
+}
+.alochona-content .page-description{
+    padding-bottom: 5px;
+}
+.alochona-content .content-right-body{
+    background-color: #e8e8e8;
+}
+.alochona-content .new-poem{
+    position: relative;
+}
+.alochona-content .add-new-poem-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--secondary);
+    padding: 2px 8px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+}
+.alochona-content .add-new-poem-btn:hover{
+    color: var(--white) !important;
+}
+.abritti-content table tbody tr td .poem-name{
+    color: #ccc;
+}
+.abritti-content table tbody tr td .poem-name a{
+    color: #9f9898;
+}
+.kobitar-asor-content .active-member-list{
+    padding: 4px 0px;
+    text-align: center;
+    margin: 0 10px;
+    width: 94%;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--white);
+}
+.kobitar-asor-content .active-member-list:hover{
+    color: var(--white) !important;
+}
+.kobitar-asor-content .detail-list{
+    float: right;
+}
+.kobitar-asor-content .detail-list a{
+    font-size: 12px;
+    background-color: #9f9898;
+    color: var(--white);
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.kobitar-asor-content .detail-list a:hover{
+    color: var(--white) !important;
+}
+.khyatiman-kobi-content .new-poem tr .serial{
+    padding-left: 9px !important;
+}
+
+/*---------------------------------
+           FAMOUS WRITER CSS
+---------------------------------*/
+.alochona-content .comments {
+    padding-bottom: 100px;
+}
+.alochona-content .comments ul li {
+    font-size: 14px;
+}
+.alochona-content .table > tbody > tr:first-child > td, .table > tbody > tr:first-child > th {
+    background-color: #F5E9D1 !important;
+}
+
+/*---------------------------------
+        POEM WITH REVIEWS CSS
+---------------------------------*/
+.kobitar-asor-content .poem-with-reviews{
+    padding: 10px;
+}
+.kobitar-asor-content .poem-with-reviews .review-body {
+    background-color: #f9f9f9;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.kobitar-asor-content .poem-with-reviews .review-body select {
+    padding: 2px 10px 2px 5px;
+    width: 100px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+}
+.kobitar-asor-content .active-member-list {
+    margin: 0px !important;
+    width: 100% !important;
+}
+.kobitar-asor-content .poem-with-reviews .min-review, .kobitar-asor-content .poem-with-reviews .min-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.kobitar-asor-content .poem-with-reviews .min-rating{
+    margin: 10px 0 20px 0;
+}

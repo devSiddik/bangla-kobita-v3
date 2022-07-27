@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--primary);
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+footer .quick-links a{
+    margin-right: 20px;
+    color: var(--white);
+}
+footer .quick-links a:hover{
+    color: var(--white) !important;
+}
+footer .copyright{
+    text-align: right;
+}
+footer .copyright span{
+    color: var(--white);
+}

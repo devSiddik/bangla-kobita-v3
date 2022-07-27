@@ -1,0 +1,47 @@
+:root {
+    --body: #e8e8ee;
+    --bodysize: 15px;
+    --bodyheight: 1.5rem;
+    --pfamily: 'AdorshoLipi', Arial, sans-serif;
+    --text: #333;
+
+    --primary: #005771;
+    --primary: #8ed3f4;
+    --primary: #f2ebe9;
+    --primary: #81a3a7;
+
+    --hover:  #005771;
+
+    --secondary: #8D2A2A;
+    --secondary: #005771;
+
+    --primary-bshadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
+    --primary-tshadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+    --orange-tshadow: 2px 3px 8px rgba(0, 0, 0, 0.1)
+
+    --gray: #e8e8e8;
+    --black: #000;
+    --red: #dc3545;
+    --blue: #3c78f0;
+    --white: #ffffff;
+    --chalk: #f5f5f5;
+    --green: #027f5e;
+    --purple: #b12fad;
+    --orange: #eb6214;
+    --yellow: #F2F50B;
+    --section: #f9f9f9;
+    --border: #e8e8e8;
+    --heading: #39404a;
+    --sub-heading: #565765;
+    --green-chalk: #ddffd5;
+    --green-dark: #072f17;
+    --gray-chalk: #cccccc;
+    --intro-bg: #f8fffa;
+    --facebook: #3b5998;
+    --linkedin: #0e76a8;
+    --twitter: #00acee;
+    --google: #E60023;
+    --instagram: #F77737;
+
+}
+

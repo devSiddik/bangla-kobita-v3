@@ -8,22 +8,97 @@
 }
 .navbar .navbar-nav{
     margin-top: -0px;
+    position: relative;
 }
 .navbar .navbar-nav .nav-item .nav-link{
     padding: 12px 15px;
     background-color: var(--primary);
     color: var(--white);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: 0.3s;
 }
-.navbar .navbar-nav .nav-item .nav-link.active{
+.navbar .navbar-nav .left-shape {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background-color: var(--white);
+    clip-path: polygon(93% 84%, 100% 70%, 100% 105%, 62% 100%, 75% 97%, 91% 86%);
+    transition: 0.3s;
+}
+.navbar .navbar-nav .right-shape {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+    background-color: #ffffff;
+    clip-path: polygon(93% 84%, 100% 70%, 100% 100%, 62% 100%, 80% 95%, 91% 86%);
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+.navbar .navbar-nav .nav-item.active .nav-link{
     background-color: var(--white);
     color: var(--secondary) !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    transition: 0.3s;
 }
-.navbar .navbar-nav .nav-item .nav-link.active i{
+.navbar .navbar-nav .nav-item{
+    position: relative;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+.navbar .navbar-nav .nav-item:hover .left-shape {
+    display: block;
+}
+.navbar .navbar-nav .nav-item:hover .right-shape{
+    display: block;   
+}
+.navbar .navbar-nav .nav-item.active .left-shape{
+    display: block;    
+}
+.navbar .navbar-nav .nav-item.active .right-shape{
+    display: block;        
+}
+.navbar .navbar-nav .nav-item.item-alochona:hover .left-shape {
+    bottom: 0px;
+    left: -32px;
+    width: 32px;
+    clip-path: polygon(93% 84%, 100% 70%, 100% 105%, 62% 100%, 75% 97%, 91% 86%);
+}
+.navbar .navbar-nav .nav-item.item-sodossho:hover .left-shape {
+    bottom: 0px;
+    left: -33px;
+    width: 33px;
+    clip-path: polygon(93% 84%, 100% 70%, 105% 111%, 62% 100%, 75% 97%, 91% 86%);
+}
+.navbar .navbar-nav .nav-item.item-kobitar-asor:hover .left-shape {
+    bottom: 0px;
+    left: -32px;
+    width: 33px;
+    clip-path: polygon(93% 84%, 100% 70%, 100% 105%, 62% 100%, 75% 98%, 91% 86%);
+}
+.navbar .navbar-nav .nav-item.item-abriti:hover .left-shape {
+    bottom: 0px;
+    left: -33px;
+    width: 34px;
+    clip-path: polygon(93% 84%, 100% 70%, 100% 105%, 62% 100%, 75% 97%, 91% 86%);
+}
+.navbar .navbar-nav .nav-item.active .nav-link i{
     color: var(--secondary) !important;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover{
     background-color: var(--white);
     color: var(--secondary) !important;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .navbar .navbar-nav .nav-item:first-child .nav-link{
     /* border-top-left-radius: 8px; */
